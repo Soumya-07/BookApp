@@ -1,0 +1,143 @@
+.btn2
+        {
+        background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+        background-image: url(https://www.gamedevmarket.net/wp-content/themes/gamedev/assets/images/intro-banner.jpg);
+          border: 0;
+          border-radius: 12px;
+          color: #ffffff;
+          cursor: pointer;
+          display: inline-block;
+          font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+          font-size: 30px;
+          font-weight: 500;
+          line-height: 2.5;
+          outline: transparent;
+          padding: 0 1rem;
+          text-align: center;
+          text-decoration: none;
+          transition: box-shadow .2s ease-in-out;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+          white-space: nowrap;
+         margin-top: 20px;
+        
+        
+        
+        }
+        .btn2:not([disabled]):hover {
+            box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+          }
+          .container
+          {
+            background-image: url(https://cdn.fansshare.com/photos/wallpaperbackground/texture-background-wallpaper-black-wood-534677387.jpg);
+              background-color: #ffffff;
+              background-size:cover;
+              height: auto;
+              width: auto;
+              /* text-align: center; */
+              border-radius: 20px;
+              margin-top: 20px;
+              margin-left: 200px;
+             
+          }
+.table
+{
+  font-size: 25px;
+  width: 100%;
+ table-layout: fixed;
+
+
+}
+th
+{
+  padding: 15px 15px;
+  background-image: linear-gradient(rgb(19, 0, 18),rgb(0, 0, 0));
+  text-align: center;
+  text-transform:capitalize;
+  color: rgb(235, 230, 230);
+
+}
+tbody
+{
+  border: 1px solid rgba(255,255,255,0.3);
+ 
+  background-size: cover;
+}
+td{
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 500;
+  color: rgb(238, 224, 224);
+ 
+}
+h5{
+  font-size: 25px;
+  padding-left: 550px;
+  text-transform: capitalize;
+  color: rgb(224, 208, 208);
+}
+
+/* CSS */
+.button-87 {
+  margin: 10px;
+  margin-left: 50px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #e41a1a 0%, #F09819  51%, #dd1414  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+.btn3
+        {
+        background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+          border: 0;
+          border-radius: 12px;
+          color: #ffffff;
+          cursor: pointer;
+          display: inline-block;
+          font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 1.5;
+          outline: transparent;
+          padding: 1 2rem;
+          text-align: center;
+          text-decoration: none;
+          transition: box-shadow .2s ease-in-out;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+          white-space: nowrap;
+       
+         margin-left: 750px;
+        margin-bottom: 10px;
+        
+        
+        }
+        .btn3:not([disabled]):hover {
+            box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+          }

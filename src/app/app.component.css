@@ -1,0 +1,70 @@
+.navbar
+{
+   /* background-image:url(https://us.v-cdn.net/6029383/uploads/editor/h0/09yp9eiech73.png); */
+     background-image:url(https://www.gamedevmarket.net/wp-content/themes/gamedev/assets/images/intro-banner.jpg);
+   background-size: cover;
+   background-color: rgba(255, 255, 255, 0.897);
+   /* justify-content: center;
+   align-items: center; */
+   padding: 1px;
+   border-radius: 10px;
+   text-align: center;
+
+
+}
+.tag
+{
+font-size: 25px;
+color: rgb(255, 255, 255);
+float: left;
+margin-top: 10px;
+padding-left: 20px;
+font-family: tagfont;
+
+}
+.menu2 a
+{
+  color: aliceblue;
+font-size: 30px;
+cursor: pointer;
+font-weight: 600;
+float: right;
+transition: 0.2s;
+padding-right: 20px;
+margin-top: 10px;
+
+}
+
+  
+  /* .menu2 a:after {
+   
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.2s;
+  } */
+  
+  .menu2 a:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  
+  .menu2 a:hover:after {
+    opacity: 1;
+  }
+  @font-face {
+    font-family: myFirstFont;
+    src: url(bengalif.ttf);
+ }
+ .font
+ {
+  color: aliceblue;
+  font-family: myFirstFont;
+  font-size: 40px;
+ }
+ @font-face {
+  font-family: tagfont ;
+  src: url(tagfont2.ttf);
+}

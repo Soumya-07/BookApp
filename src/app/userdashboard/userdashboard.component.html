@@ -1,0 +1,136 @@
+<div >
+    <button routerLink="/addbooks" class="btn2" id="addbooks">Add New Book</button> &nbsp;
+    <button class="btn2" id="showbooks" (click)="showbooks()">Show My Books</button>&nbsp;
+    <button class="btn2" id="showbooks" (click)="removeabook()">Remove Book</button>&nbsp;
+    <button class="btn2" id="showbooks" (click)="Update()">Update Price</button>&nbsp;
+    <br>
+    <button class="btn2" id="showbooks" (click)="sortbypub()">Sort By Publishers</button>&nbsp;
+    <button class="btn2" id="showbooks" (click)="sortbyauth()">Sort By Author</button>&nbsp;
+    <button class="btn2" id="showbooks" (click)="sortbygen()">Sort By Genre</button>&nbsp;
+    <button class="btn2" id="showbooks" (click)="sortbylan()">Sort By Language</button>&nbsp;
+    <br>
+    <button class="btn2" id="showbooks" (click)="readlist()">Mark as Read</button>&nbsp;
+    <button class="btn2" id="showbooks" (click)="readbooklist()">ReadList</button>&nbsp;
+    <button class="btn2" id="showbooks" (click)="tbv()">Total Book Values</button>&nbsp;
+
+</div>
+
+
+<div *ngIf="showbook" class="container">
+
+    <table class="table" *ngIf="booktable" [cellPadding]="0" [cellSpacing]="0">
+<thead class="thead">
+<tr>
+    <th>Book Name</th>
+    <th>Written By</th>
+    <th>Publisher</th>
+    <th>Genre</th>
+    <th>Price</th>
+    <th>Language</th>
+    <th *ngIf="removebook">Remove Books</th>
+    <th *ngIf="readbook">Choose Rating</th>
+    <th *ngIf="readbook">Mark as read Rating {{rating}}</th>
+    <th *ngIf="up">Update Price</th>
+</tr>
+
+</thead>
+<br>
+<tbody class="tbody">
+<tr *ngFor="let i of tableform">
+
+    <td>{{i.bname}}</td>
+    <td>{{i.author}}</td>
+    <td>{{i.publisher}}</td>
+    <td>{{i.genre}}</td>
+    <td>{{i.price}}</td>
+    <td>{{i.language}}</td>
+    <td *ngIf="removebook"><button class="button-87" (click)="remove(i)">Remove</button></td>
+    <td *ngIf="readbook"> <button (click)="one()">1</button>
+        <button (click)="two()">2</button>
+        <button (click)="three()">3</button>
+        <button (click)="four()">4</button>
+        <button (click)="five()">5</button>
+    <br><button (click)="six()">6</button>
+    <button (click)="seven()">7</button>
+    <button (click)="eight()">8</button>
+    <button (click)="nine()">9</button>
+    <button (click)="ten()">10</button>
+    </td>
+    <td *ngIf="up"><button class="button-87"  (click)="upprice(i)">Update <br> Price</button></td>
+    <td *ngIf="readbook"><button class="button-87" (click)="read(i)">Add to Readlist</button></td>
+
+    <form [formGroup]="rlistform" (ngSubmit)="read(i)">
+        <input id="rbname" class="place" type="text" placeholder="Enter your Book name" name="rbname" formControlName="rbname">
+        <input id="bauthor" class="place" type="text" placeholder="Enter author name" name="bauthor" formControlName="bauthor">
+        <input id="bpublisher" class="place" type="text" placeholder="Enter publisher" name="bpublisher" formControlName="bpublisher">
+        
+       
+    </form>
+</tr>
+</tbody>
+<br>
+
+
+    </table>
+
+    <div>
+        <h1 *ngIf="popup" >Update price</h1>
+        
+    </div>
+
+    <table class="table" *ngIf="readtable" [cellPadding]="0" [cellSpacing]="0">
+        <thead class="thead">
+        <tr>
+            <th>Book Name</th>
+            <th>Written By</th>
+            <th>Publisher</th>
+            <th>Rating</th>
+        </tr>
+        
+        </thead> <br>
+    <tbody class="tbody">
+
+        <tr *ngFor="let r of readform">
+
+            <td>{{r.rbname}}</td>
+            <td>{{r.bauthor}}</td>
+            <td>{{r.bpublisher}}</td>
+            <td>{{r.rating}}</td>
+
+        </tr>
+
+    </tbody>
+    
+    </table>
+
+    <table class="table" *ngIf="tbvshow" [cellPadding]="0" [cellSpacing]="0">
+        <thead class="thead">
+        <tr>
+            <th>Total No of Books</th>
+            <th>No of Books Already Read</th>
+            <th>Books left to read</th>
+            <th>library Worth</th>
+        </tr>
+        
+        </thead> <br>
+    <tbody class="tbody">
+
+        <tr>
+
+            <td>{{totalbook}}</td>
+            <td>{{totalreadbook}}</td>
+            <td>{{lefttoread}}</td>
+            <td>{{totalvalue}}</td>
+
+        </tr>
+
+    </tbody>
+    
+    </table>
+<h5 *ngIf="tag && booktable" >Yeeee!!! you have now {{totalbooks}} books in your library</h5>
+<button class="btn3" (click)="close()">Close</button>
+</div>
+
+
+
+

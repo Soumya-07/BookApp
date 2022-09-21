@@ -1,0 +1,128 @@
+.container1
+{
+    background-image: url(https://wp.scoopwhoop.com/wp-content/uploads/2016/11/5825cd427c998878ebaa304e_290641108.png);
+    background-size:cover;
+    height: 319px;
+    width: 266px;
+    /* text-align: center; */
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.container2
+{
+    background-image: url(https://wp.scoopwhoop.com/wp-content/uploads/2016/11/5825cd427c998878ebaa304e_261060271.png);
+    background-size:cover;
+    height: 319px;
+    width: 266px;
+    /* text-align: center; */
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.container3
+{
+    background-image: url(https://wp.scoopwhoop.com/wp-content/uploads/2016/11/5825cd427c998878ebaa304e_386381177.png);
+    background-size:cover;
+    height: 319px;
+    width: 266px;
+    /* text-align: center; */
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.container4
+{
+    background-image: url(https://wp.scoopwhoop.com/wp-content/uploads/2016/11/5825cd427c998878ebaa304e_755680023.png);
+    background-size:cover;
+    height: 319px;
+    width: 266px;
+    /* text-align: center; */
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.container5
+{
+    background-image: url(https://wp.scoopwhoop.com/wp-content/uploads/2016/11/5825cd427c998878ebaa304e_527970994.png);
+    background-size:cover;
+    height: 319px;
+    width: 266px;
+    /* text-align: center; */
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.container6
+{
+    background-image: url(https://wp.scoopwhoop.com/wp-content/uploads/2016/11/5825cd427c998878ebaa304e_564817264.png);
+    background-size:cover;
+    height: 319px;
+    width: 266px;
+    /* text-align: center; */
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.container7
+{
+    background-image: url(https://wp.scoopwhoop.com/wp-content/uploads/2016/11/5825cd427c998878ebaa304e_312120212.png);
+    background-size:cover;
+    height: 319px;
+    width: 266px;
+    /* text-align: center; */
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.container8
+{
+    background-image: url(https://wp.scoopwhoop.com/wp-content/uploads/2016/11/5825cd427c998878ebaa304e_981165320.png);
+    background-size:cover;
+    height: 319px;
+    width: 266px;
+    /* text-align: center; */
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.btn2
+        {
+        
+          border: 0;
+          border-radius: 12px;
+          color: #ce2121;
+          cursor: pointer;
+          display: inline-block;
+          font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 2.5;
+          outline: transparent;
+          padding: 0 1rem;
+          text-align: center;
+          text-decoration: none;
+          transition: box-shadow .2s ease-in-out;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+          white-space: nowrap;
+        
+        
+        
+        }
+        .btn2:not([disabled]):hover {
+            box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+            filter: blur(0px);
+            transform: scale(1.2);
+            opacity: 1;
+            transition: 0.5s;
+        }
+.main{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.main2{
+  
+    margin-left: 20px;
+}

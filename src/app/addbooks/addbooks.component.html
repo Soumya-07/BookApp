@@ -1,0 +1,38 @@
+<form [formGroup]="addbooksform" (ngSubmit)="addbooks()">
+    <div class="container">
+        <h1 class="title">Add Book to your Collection</h1>
+        <div class="boxinput">
+            <label for="number">Enter Name</label><br>
+            <input id="bname" class="place" type="text" placeholder="Enter your Book name" name="bname" formControlName="bname">
+    
+            <br><br><br><br>
+            <label for="number">Enter Author Name</label><br>
+            <input id="author" class="place" type="text" placeholder="Enter author name" name="author" formControlName="author">
+    <br><br><br><br>
+            <label for="number">Enter publisher</label><br>
+            <input id="publisher" class="place" type="text" placeholder="Enter publisher" name="publisher" formControlName="publisher">
+    
+    
+    
+            </div>
+            <div class="boxinput2">
+                
+            <label for="number">Enter Genre</label><br>
+            <input id=" genre" class="place" type="text" placeholder="Enter Genre" name=" genre" formControlName="genre">  
+    <br><br><br><br>
+    <label for="lang">Enter Language</label><br>
+    <select class="btn2" id="language" aria-placeholder="Please Select Your Language" formControlName="language">
+        <!-- <option default>Please Select the 2-wheeler model</option> -->
+        <option value="" disabled selected hidden>Please Select Your Language</option>
+        <option>Bengali</option>
+        <option>English</option>
+        <option>Hindi</option>
+    </select>
+    <br><br><br><br>
+    <label for="number">Enter Price</label><br>
+    <input id="price" class="place" type="text" placeholder="Enter Price" name="price" formControlName="price"> 
+   <br><br>
+   <button class="btn2" type="submit">Add Book</button>
+    </div>
+    </div>
+    </form>

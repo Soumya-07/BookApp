@@ -1,0 +1,42 @@
+<form [formGroup]="registrationForm" (ngSubmit)="registration()">
+<div class="container">
+    <h1 class="title">User Registration</h1>
+    <div class="boxinput">
+        <label for="number">Enter Name</label><br>
+        <input id="uname" class="place" type="text" placeholder="Enter your full name" name="uname" formControlName="uname">
+
+        <br><br><br><br>
+        <label for="number">Enter Email</label><br>
+        <input id="email" class="place" type="text" placeholder="Enter your email id" name="email" formControlName="email">
+<br><br><br><br>
+        <label for="number">Enter Contact Number</label><br>
+        <input id="contact" class="place" type="number" placeholder="Enter Contact No" name="contact" formControlName="contact">
+
+
+
+        </div>
+        <div class="boxinput2">
+            
+        <label for="number">Enter Password</label><br>
+        <input id="pw" class="place" type="password" placeholder="Enter Password" name="pw" formControlName="pw">  
+<br><br><br><br>
+<label for="lang">Enter Language</label><br>
+<select class="btn2" id="lang" aria-placeholder="Please Select Your Language" formControlName="lang">
+    <!-- <option default>Please Select the 2-wheeler model</option> -->
+    <option value="" disabled selected hidden>Please Select Your Language</option>
+    <option>Bengali</option>
+    <option>English</option>
+    <option>Hindi</option>
+</select>
+<br><br>
+<button *ngIf="bshow" class="btn2" type="button" (click)="generatecode()">Generate UserCode</button>
+<br><br>
+<label for="number">Your UserCode</label><br>
+        <input id="usercode" *ngIf="codeshow" class="place" type="number" placeholder={{codeno}} name="usercode" formControlName="usercode"> 
+<br><a *ngIf="codeshow" style="color:red;font-size:20px;">*Remember or note this code for Login</a>
+   <br> <br>   
+<button class="btn2" type="submit">Register</button>
+
+</div>
+</div>
+</form>

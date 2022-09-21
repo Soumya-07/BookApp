@@ -1,0 +1,120 @@
+.container
+{
+    background-image: url(https://images.freeimages.com/images/large-previews/128/old-open-book-1164694.jpg);
+    background-size:cover;
+    height: 700px;
+    width: 1100px;
+    /* text-align: center; */
+    border-radius: 20px;
+    margin-top: 60px;
+   
+}
+.title
+{
+padding-top: 100px;
+/* padding-right: 320px; */
+padding-left: 350px;
+color: rgb(48, 0, 0);
+
+}
+.boxinput
+{
+    color: rgb(0, 11, 20);
+    margin-top: 20px;
+    padding-right: 320px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.place
+{
+    width: 200px;
+    height: 25px;
+    /* background-image:linear-gradient(rgb(19, 16, 16),rgb(0, 0, 0)  );
+    color: #c2fbd7;
+    margin-top: 10px;
+    font-size: 20px; */
+    border: 0;
+    font-family: inherit;
+    border-bottom: 2px solid;
+    outline: 0;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+     background: transparent; 
+    /* background:cornsilk; */
+    transition: border-color 0.2s;
+}
+.form-submit {
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 700px;
+}
+#register {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+#register1 {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); }
+    .btn{
+        margin-left: 820px;
+        background-color: #220000;
+        border-radius: 100px;
+        box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        display: inline-block;
+        font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+        padding: 7px 20px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 250ms;
+        border: 0;
+        font-size: 16px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        }
+        
+        
+        .btn:hover {
+          box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+          transform: scale(1.05) rotate(-1deg);
+        }
+        .btn2
+        {
+        background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+          border: 0;
+          border-radius: 12px;
+          color: #ce2121;
+          cursor: pointer;
+          display: inline-block;
+          font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 2.5;
+          outline: transparent;
+          padding: 0 1rem;
+          text-align: center;
+          text-decoration: none;
+          transition: box-shadow .2s ease-in-out;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+          white-space: nowrap;
+        
+        
+        
+        }
+        .btn2:not([disabled]):hover {
+            box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+          }
+          .text
+          {
+        font-size: 25px;
+          }
+h2
+{
+  margin-left: 760px;
+}

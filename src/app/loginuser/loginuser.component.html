@@ -1,0 +1,24 @@
+<form [formGroup]="loginUserForm" (ngSubmit)="dashboard()">
+<div class="container">
+<h1 class="title">Log in</h1>
+<div class="boxinput">
+<label for="number">Enter Code</label><br>
+<input id="usercode" class="place" type="Number" placeholder="Enter UserCode" name="usercode" formControlName="usercode">
+
+</div>
+<h2 *ngIf="correct">*Incorrect Credentials</h2>
+<button class="btn" type="submit" (click)="dashboard()">Turn the Page</button>
+<div class="boxinput">
+    <label for="text">Enter Password</label><br>
+    <input id="pw" class="place" type="text" placeholder="Enter Password" name="pw" formControlName="pw">
+    
+    </div>
+    
+    <div class="form-submit">
+        <button class="btn2" id="register" (click)="finalregister()">Register</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn2" id="register1" (click)="forgotpassword()">Forgot Password</button>
+    </div>
+</div>
+
+</form>
